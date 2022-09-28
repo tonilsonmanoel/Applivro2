@@ -47,36 +47,53 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="50dp"
             android:textSize="28dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor: nome do autor"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="120dp"
+            android:textSize="19dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genero: Terror"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="144dp"
+            android:textSize="19dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="82dp">
+            android:layout_marginTop="2dp"
+            android:gravity="center">
             <ImageView
                 android:id="@+id/estrela1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/estrelaamarela"/>
             <ImageView
                 android:id="@+id/estrela2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/estrelaamarela"/>
             <ImageView
                 android:id="@+id/estrela3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/estrelaamarela"/>
             <ImageView
                 android:id="@+id/estrela4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/estrelaamarela"/>
             <ImageView
                 android:id="@+id/estrela5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/estrelaamarela"/>
         </LinearLayout>
 
@@ -106,7 +123,8 @@
             android:layout_marginTop="15dp"
             android:backgroundTint="@color/laranja"
             android:layout_width="170dp"
-            android:layout_height="70dp"/>
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
 </ScrollView>
