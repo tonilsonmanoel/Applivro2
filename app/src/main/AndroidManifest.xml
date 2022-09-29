@@ -15,73 +15,73 @@
         android:theme="@style/Theme.LIVROS2"
         tools:targetApi="31">
         <activity
-            android:name=".HaloBrokenCircle"
+            android:name=".livros.HaloBrokenCircle"
             android:exported="false" />
         <activity
-            android:name=".BioshockRapture"
+            android:name=".LivroTest"
             android:exported="false" />
         <activity
-            android:name=".Nyxia"
+            android:name=".livros.Nyxia"
             android:exported="false" />
         <activity
-            android:name=".RotasdeColisa"
+            android:name=".livros.RotasdeColisa"
             android:exported="false" />
         <activity
-            android:name=".Os_Doentes"
+            android:name=".livros.Os_Doentes"
             android:exported="false" />
         <activity
-            android:name=".UmMundoBrilhante"
+            android:name=".livros.UmMundoBrilhante"
             android:exported="false" />
         <activity
-            android:name=".O_cacador_de_demonios"
+            android:name=".livros.O_cacador_de_demonios"
             android:exported="false" />
         <activity
-            android:name=".Tudo_junto_e_misturado"
+            android:name=".livros.Tudo_junto_e_misturado"
             android:exported="false" />
         <activity
-            android:name=".Irma_morte"
+            android:name=".livros.Irma_morte"
             android:exported="false" />
         <activity
-            android:name=".UmContoDoDestino"
+            android:name=".livros.UmContoDoDestino"
             android:exported="false" />
         <activity
-            android:name=".AVidaAlem"
+            android:name=".livros.AVidaAlem"
             android:exported="false" />
         <activity
-            android:name=".WillGallows"
+            android:name=".livros.WillGallows"
             android:exported="false" />
         <activity
-            android:name=".Rurik"
+            android:name=".livros.Rurik"
             android:exported="false" />
         <activity
-            android:name=".Mikhail"
+            android:name=".livros.Mikhail"
             android:exported="false" />
         <activity
-            android:name=".Grigori"
+            android:name=".livros.Grigori"
             android:exported="false" />
         <activity
-            android:name=".SavedKisses3"
+            android:name=".livros.SavedKisses3"
             android:exported="false" />
         <activity
-            android:name=".SweetKisses2"
+            android:name=".livros.SweetKisses2"
             android:exported="false" />
         <activity
-            android:name=".HoldingMia"
+            android:name=".livros.HoldingMia"
             android:exported="false" />
         <activity
-            android:name=".IronHeart"
+            android:name=".livros.IronHeart"
             android:exported="false" />
         <activity
-            android:name=".ThoseWhoPrey"
+            android:name=".livros.ThoseWhoPrey"
             android:exported="false" />
         <activity
-            android:name=".QueenOfTheWildwood"
+            android:name=".livros.QueenOfTheWildwood"
             android:exported="false" />
         <activity
-            android:name=".Lightbringer"
+            android:name=".livros.Lightbringer"
             android:exported="false" />
         <activity
-            android:name=".Forest_Of_Souls"
+            android:name=".livros.Forest_Of_Souls"
             android:exported="false" />
         <activity
             android:name=".Home"
@@ -98,14 +98,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".WebView"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".LivroTest"
+            android:name=".livros.BioshockRapture"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

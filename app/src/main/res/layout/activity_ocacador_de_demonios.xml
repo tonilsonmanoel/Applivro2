@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".O_cacador_de_demonios">
+    tools:context=".livros.O_cacador_de_demonios">
 
     <LinearLayout
         android:orientation="vertical"

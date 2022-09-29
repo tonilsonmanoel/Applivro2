@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tudo_junto_e_misturado">
+    tools:context=".livros.Tudo_junto_e_misturado">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"

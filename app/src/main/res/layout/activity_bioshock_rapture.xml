@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BioshockRapture">
+    tools:context=".livros.BioshockRapture">
 
 
     <LinearLayout
@@ -126,6 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:textAlignment="center"
             android:text="A LIBERDADE TEM LIMITES?CONHEÇA A HISTÓRIA DE RAPTURE, A UTÓPICA CIDADE SUBMERSA, CENÁRIO DO INQUIETANTE GAME BIOSHOCK . Fim da Segunda Guerra Mundial. As bombas atômicas de Hiroshima e Nagasaki trouxeram ao mundo o medo de uma total aniquilação. Novas políticas foram adotadas pelo governo americano, a fim de recuperar e restaurar a economia do país. "
             android:textColor="@color/black"
             android:textSize="20dp" />

@@ -1,7 +1,6 @@
 package com.example.livros2
 
 import android.annotation.SuppressLint
-import android.graphics.pdf.PdfDocument
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebView
@@ -9,7 +8,7 @@ import android.webkit.WebViewClient
 import com.example.livros2.databinding.ActivityMainBinding
 
 
-class MainActivity : AppCompatActivity() {
+class WebView : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {

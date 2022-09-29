@@ -17,7 +17,7 @@ class LivroTest : AppCompatActivity() {
     }
 
     private fun irParaWebView(){
-        val intent = Intent(this@LivroTest, MainActivity::class.java)
+        val intent = Intent(this@LivroTest, WebView::class.java)
         intent.putExtra("pdf","https://ablutionary-aviatio.000webhostapp.com/Halo_JohnShirley.pdf")
         startActivity(intent)
     }
