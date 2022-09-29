@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import com.bumptech.glide.Glide
+import com.example.livros2.livros.HaloBrokenCircle
 
 class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,9 +20,8 @@ class Home : AppCompatActivity() {
         }
 
     }
-
     private fun irParaLivro1(){
-        val intent = Intent(this@Home,LivroTest::class.java)
+        val intent = Intent(this@Home,HaloBrokenCircle::class.java)
         startActivity(intent)
     }
 }

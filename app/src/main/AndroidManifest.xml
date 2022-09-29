@@ -84,7 +84,7 @@
             android:name=".livros.Forest_Of_Souls"
             android:exported="false" />
         <activity
-            android:name=".Home"
+            android:name=".livros.BioshockRapture"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -105,7 +105,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".livros.BioshockRapture"
+            android:name=".Home"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
