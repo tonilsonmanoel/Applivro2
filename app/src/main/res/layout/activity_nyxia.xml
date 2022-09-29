@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Forest_Of_Souls"
-    android:fillViewport="true">
+    tools:context=".Nyxia">
+
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -32,43 +33,39 @@
                 android:layout_height="50dp"/>
 
         </LinearLayout>
-
         <ImageView
             android:id="@+id/livroPrincipal1"
             android:layout_width="200dp"
             android:layout_height="310dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
-            android:src="@drawable/forestofsouls"/>
-        <LinearLayout
-            android:layout_width="match_parent"
+            android:src="@drawable/nyxia"/>
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">s
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Forest Of Souls"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="10dp"
-                        android:layout_gravity="center"
-                        android:textSize="28dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Autor: Lori M Lee"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="2dp"
-                        android:layout_gravity="center"
-                        android:textSize="19dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Genero: Fantasia, Romance"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="2dp"
-                        android:layout_gravity="center"
-                        android:textSize="19dp" />
-        </LinearLayout>
+            android:text="Nyxia"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="28dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor: Scott Reintgen"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:textSize="19dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genero: Ficção"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:textSize="19dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -116,7 +113,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="Sirscha Ashwyn vem do nada, mas ela tem a intenção de se tornar algo. Após anos de treinamento para se tornar a próxima espiã real da rainha, seus planos são prejudicados quando os xamãs atacam e matam sua melhor amiga, Saengo. E então Sirscha, de alguma forma, restaura Saengo à vida."
+            android:text="Emmett Atwater não está apenas partindo de Detroit – ele está partindo do planeta Terra. A razão de a Babel Comunicações tê-lo recrutado permanece um mistério, mas a fortuna em jogo torna a missão irrecusável. Cheio de esperança, ele adentra a nave da corporação a fim de voltar com dinheiro suficiente para cuidar de sua família... para o resto de suas vidas.
+"
             android:textColor="@color/black"
             android:textSize="20dp"/>
         <Button
@@ -132,5 +130,4 @@
             android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
-
 </ScrollView>

@@ -15,6 +15,72 @@
         android:theme="@style/Theme.LIVROS2"
         tools:targetApi="31">
         <activity
+            android:name=".HaloBrokenCircle"
+            android:exported="false" />
+        <activity
+            android:name=".BioshockRapture"
+            android:exported="false" />
+        <activity
+            android:name=".Nyxia"
+            android:exported="false" />
+        <activity
+            android:name=".RotasdeColisa"
+            android:exported="false" />
+        <activity
+            android:name=".Os_Doentes"
+            android:exported="false" />
+        <activity
+            android:name=".UmMundoBrilhante"
+            android:exported="false" />
+        <activity
+            android:name=".O_cacador_de_demonios"
+            android:exported="false" />
+        <activity
+            android:name=".Tudo_junto_e_misturado"
+            android:exported="false" />
+        <activity
+            android:name=".Irma_morte"
+            android:exported="false" />
+        <activity
+            android:name=".UmContoDoDestino"
+            android:exported="false" />
+        <activity
+            android:name=".AVidaAlem"
+            android:exported="false" />
+        <activity
+            android:name=".WillGallows"
+            android:exported="false" />
+        <activity
+            android:name=".Rurik"
+            android:exported="false" />
+        <activity
+            android:name=".Mikhail"
+            android:exported="false" />
+        <activity
+            android:name=".Grigori"
+            android:exported="false" />
+        <activity
+            android:name=".SavedKisses3"
+            android:exported="false" />
+        <activity
+            android:name=".SweetKisses2"
+            android:exported="false" />
+        <activity
+            android:name=".HoldingMia"
+            android:exported="false" />
+        <activity
+            android:name=".IronHeart"
+            android:exported="false" />
+        <activity
+            android:name=".ThoseWhoPrey"
+            android:exported="false" />
+        <activity
+            android:name=".QueenOfTheWildwood"
+            android:exported="false" />
+        <activity
+            android:name=".Lightbringer"
+            android:exported="false" />
+        <activity
             android:name=".Forest_Of_Souls"
             android:exported="false" />
         <activity

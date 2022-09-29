@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Forest_Of_Souls"
-    android:fillViewport="true">
+    tools:context=".Tudo_junto_e_misturado">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -32,43 +31,39 @@
                 android:layout_height="50dp"/>
 
         </LinearLayout>
-
         <ImageView
             android:id="@+id/livroPrincipal1"
             android:layout_width="200dp"
             android:layout_height="310dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
-            android:src="@drawable/forestofsouls"/>
-        <LinearLayout
-            android:layout_width="match_parent"
+            android:src="@drawable/tudojunto"/>
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">s
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Forest Of Souls"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="10dp"
-                        android:layout_gravity="center"
-                        android:textSize="28dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Autor: Lori M Lee"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="2dp"
-                        android:layout_gravity="center"
-                        android:textSize="19dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Genero: Fantasia, Romance"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="2dp"
-                        android:layout_gravity="center"
-                        android:textSize="19dp" />
-        </LinearLayout>
+            android:text="Tudo junto e misturado"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="28dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor: Ann Brashares"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:textSize="19dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genero: Romance"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:textSize="19dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -116,7 +111,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="Sirscha Ashwyn vem do nada, mas ela tem a intenção de se tornar algo. Após anos de treinamento para se tornar a próxima espiã real da rainha, seus planos são prejudicados quando os xamãs atacam e matam sua melhor amiga, Saengo. E então Sirscha, de alguma forma, restaura Saengo à vida."
+            android:text="Dois jovens vivem no mesmo lugar, mas nunca juntos.
+Sasha e Ray sempre passam o verão na velha casa de férias da família. Desde pequenos, os dois dividiram muitas coisas — leram os mesmos livros, correram pela mesma praia, comeram pêssegos colhidos na mesma fazenda, tomaram café da manhã sentados à mesma mesa. Até dormiram na mesma cama, mas nunca ao mesmo tempo. Afinal, eles jamais se encontraram.
+"
             android:textColor="@color/black"
             android:textSize="20dp"/>
         <Button
@@ -132,5 +129,4 @@
             android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
-
 </ScrollView>

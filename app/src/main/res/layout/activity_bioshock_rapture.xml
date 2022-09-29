@@ -4,130 +4,143 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LivroTest"
-    android:fillViewport="true">
+    tools:context=".BioshockRapture">
 
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         tools:ignore="ExtraText">
         // Linear layout da logo
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <ImageView
                 android:id="@+id/logo"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="120dp"
-                android:src="@drawable/ic_launcher_background"/>
+                android:src="@drawable/ic_launcher_background" />
+
             <TextView
                 android:id="@+id/logonome"
-                android:textSize="32dp"
-                android:text="LOGO"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
 
                 android:gravity="center"
-                android:layout_width="120dp"
-                android:layout_height="50dp"/>
+                android:text="LOGO"
+                android:textSize="32dp" />
 
         </LinearLayout>
+
         <ImageView
             android:id="@+id/livroPrincipal1"
             android:layout_width="200dp"
             android:layout_height="310dp"
+            android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:layout_gravity="center"
-            android:src="@drawable/livro"/>
+            android:src="@drawable/bioshock" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SUSSUROS NA FORESTA"
-            android:textColor="@color/black"
+            android:layout_gravity="center"
             android:layout_marginTop="10dp"
-           android:layout_gravity="center"
+            android:text="Bioshock: Rapture"
             android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="28dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Autor: nome do autor"
-            android:textColor="@color/black"
-            android:layout_marginTop="2dp"
             android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Autor: John Shirley"
+            android:textColor="@color/black"
             android:textSize="19dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Genero: Terror"
-            android:textColor="@color/black"
-            android:layout_marginTop="2dp"
             android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Genero: Ficção"
+            android:textColor="@color/black"
             android:textSize="19dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginTop="2dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="horizontal">
+
             <ImageView
                 android:id="@+id/estrela1"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
+                android:src="@drawable/estrelaamarela" />
+
             <ImageView
                 android:id="@+id/estrela2"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
+                android:src="@drawable/estrelaamarela" />
+
             <ImageView
                 android:id="@+id/estrela3"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
+                android:src="@drawable/estrelaamarela" />
+
             <ImageView
                 android:id="@+id/estrela4"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
+                android:src="@drawable/estrelaamarela" />
+
             <ImageView
                 android:id="@+id/estrela5"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
+                android:src="@drawable/estrelaamarela" />
         </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="30dp"
-
-            android:textColor="@color/black"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="125dp"
-            android:text="DESCRIÇÃO"/>
+
+            android:layout_marginTop="10dp"
+            android:text="DESCRIÇÃO"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text=""
+            android:text="A LIBERDADE TEM LIMITES?CONHEÇA A HISTÓRIA DE RAPTURE, A UTÓPICA CIDADE SUBMERSA, CENÁRIO DO INQUIETANTE GAME BIOSHOCK . Fim da Segunda Guerra Mundial. As bombas atômicas de Hiroshima e Nagasaki trouxeram ao mundo o medo de uma total aniquilação. Novas políticas foram adotadas pelo governo americano, a fim de recuperar e restaurar a economia do país. "
             android:textColor="@color/black"
-            android:textSize="20dp"/>
+            android:textSize="20dp" />
+
         <Button
             android:id="@+id/lerlivro"
-            android:text="LER"
-            android:textColor="@color/white"
-            android:textSize="38dp"
-            android:layout_marginLeft="125dp"
-            android:layout_marginTop="15dp"
-            android:backgroundTint="@color/laranja"
             android:layout_width="170dp"
             android:layout_height="70dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/laranja"
+            android:text="LER"
+            android:textColor="@color/white"
+            android:textSize="38dp" />
 
     </LinearLayout>
 </ScrollView>

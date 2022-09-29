@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Forest_Of_Souls"
-    android:fillViewport="true">
+    tools:context=".Os_Doentes">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -32,43 +31,39 @@
                 android:layout_height="50dp"/>
 
         </LinearLayout>
-
         <ImageView
             android:id="@+id/livroPrincipal1"
             android:layout_width="200dp"
             android:layout_height="310dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
-            android:src="@drawable/forestofsouls"/>
-        <LinearLayout
-            android:layout_width="match_parent"
+            android:src="@drawable/os_doentes_do_doutor_garcia"/>
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">s
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Forest Of Souls"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="10dp"
-                        android:layout_gravity="center"
-                        android:textSize="28dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Autor: Lori M Lee"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="2dp"
-                        android:layout_gravity="center"
-                        android:textSize="19dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Genero: Fantasia, Romance"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="2dp"
-                        android:layout_gravity="center"
-                        android:textSize="19dp" />
-        </LinearLayout>
+            android:text="Os Doentes do Doutor García"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="28dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor: Almudena Grandes"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:textSize="19dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genero: Ficção"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:textSize="19dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -116,7 +111,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="Sirscha Ashwyn vem do nada, mas ela tem a intenção de se tornar algo. Após anos de treinamento para se tornar a próxima espiã real da rainha, seus planos são prejudicados quando os xamãs atacam e matam sua melhor amiga, Saengo. E então Sirscha, de alguma forma, restaura Saengo à vida."
+            android:text="Depois da vitória de Franco na Guerra Civil Espanhola, o Doutor Guillermo García Medina continua a viver em Madrid sob uma falsa identidade, a mesma que o salvou de ser fuzilado e que foi um presente de Manuel Arroyo Benítez, um diplomata republicano a quem salvara a vida uns anos antes. Julgando que nunca mais o veria, acaba por encontrar-se com Manuel em 1946, deixando-se recrutar para uma missão secreta e muito perigosa: a de se infiltrar na rede clandestina de evasão de criminosos de guerra fugidos do Terceiro Reich para a Argentina, dirigida por Clara Stauffer, uma poderosa mulher de nacionalidade alemã e espanhola, a partir do pacato bairro de Argüelles.
+"
             android:textColor="@color/black"
             android:textSize="20dp"/>
         <Button
@@ -132,5 +128,4 @@
             android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
-
 </ScrollView>
