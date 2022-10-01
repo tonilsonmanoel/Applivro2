@@ -33,8 +33,8 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/livroPrincipal1"
-            android:layout_width="200dp"
-            android:layout_height="310dp"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
             android:src="@drawable/avidaal_mdoveu"/>
@@ -44,6 +44,7 @@
             android:text="A Vida Além do Véu "
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
+            android:textStyle="bold"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:textSize="28dp" />
@@ -64,46 +65,20 @@
             android:layout_gravity="center"
             android:textSize="19dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="2dp"
-            android:gravity="center">
-            <ImageView
-                android:id="@+id/estrela1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/estrelas5"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-
+            android:textStyle="bold"
             android:textColor="@color/black"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="125dp"
             android:text="DESCRIÇÃO"/>
         <TextView
@@ -111,6 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:textAlignment="center"
             android:text="Descrição minuciosa da vida espiritual, sobre moradas de Espíritos chamadas “colônias”, relatos de missões de guias e mentores, na Terra e em outros mundos... Parece “NOSSO LAR”, não? Pois esta obra fantástica é datada de antes do clássico de Chico Xavier, com quem tem impressionante similaridade.
 Em meio ao fenomenal evento das mesas girantes, o Reverendo Inglês George Vale Owen é surpreendido recebendo mensagens mediúnicas de sua mãe e outros guias, narrando-lhe a vida além-túmulo, ao mesmo tempo em que desvela uma filosofia avançada.
 "

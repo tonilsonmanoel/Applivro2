@@ -34,8 +34,8 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/livroPrincipal1"
-            android:layout_width="200dp"
-            android:layout_height="310dp"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
             android:src="@drawable/rotasdecolisao"/>
@@ -44,6 +44,7 @@
             android:layout_height="wrap_content"
             android:text="Rotas de Colisão "
             android:textColor="@color/black"
+            android:textStyle="bold"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:textAlignment="center"
@@ -65,44 +66,18 @@
             android:layout_gravity="center"
             android:textSize="19dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="2dp"
-            android:gravity="center">
-            <ImageView
-                android:id="@+id/estrela1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/estrelas5"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-
+android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="125dp"
@@ -112,6 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:textAlignment="center"
             android:text="Com a morte de sua jovem esposa, o físico Fin Canty tenta recuperar a fé, iniciando uma frenética busca para encontrar a famosa Partícula de Deus, o que o faz entrar em rota de colisão com os interesses de outras pessoas e grupos que buscam uma forma de encontrar a prova definitiva da existência do Criador. Entretanto, após um violento roubo de carro, Fin é morto de forma misteriosa. "
             android:textColor="@color/black"
             android:textSize="20dp"/>

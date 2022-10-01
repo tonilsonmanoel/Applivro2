@@ -33,12 +33,13 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/livroPrincipal1"
-            android:layout_width="200dp"
-            android:layout_height="310dp"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
             android:src="@drawable/tudojunto"/>
         <TextView
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tudo junto e misturado"
@@ -64,38 +65,12 @@
             android:layout_gravity="center"
             android:textSize="19dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="2dp"
-            android:gravity="center">
-            <ImageView
-                android:id="@+id/estrela1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/estrelas5"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -110,6 +85,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
+            android:textAlignment="center"
             android:layout_marginRight="10dp"
             android:text="Dois jovens vivem no mesmo lugar, mas nunca juntos.
 Sasha e Ray sempre passam o verão na velha casa de férias da família. Desde pequenos, os dois dividiram muitas coisas — leram os mesmos livros, correram pela mesma praia, comeram pêssegos colhidos na mesma fazenda, tomaram café da manhã sentados à mesma mesa. Até dormiram na mesma cama, mas nunca ao mesmo tempo. Afinal, eles jamais se encontraram.

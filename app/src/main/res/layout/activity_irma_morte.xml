@@ -33,8 +33,8 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/livroPrincipal1"
-            android:layout_width="200dp"
-            android:layout_height="310dp"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
             android:src="@drawable/img_20220926_235233_541"/>
@@ -42,6 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Irmã morte"
+            android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
@@ -64,46 +65,20 @@
             android:layout_gravity="center"
             android:textSize="19dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="2dp"
-            android:gravity="center">
-            <ImageView
-                android:id="@+id/estrela1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/estrelas5"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-
+        android:textStyle="bold"
             android:textColor="@color/black"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="125dp"
             android:text="DESCRIÇÃO"/>
         <TextView
@@ -111,6 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:textAlignment="center"
             android:text="Considerado por muitos a melhor e mais importante obra do escritor e poeta espanhol Justo Navarro, o inquietante romance IRMÃ MORTE, consagrado com o prêmio Navarra em 1989, relata as experiências vividas por um jovem e sua irmã depois da morte do pai. É através das memórias do adolescente, de seus olhos e sua percepção, que penetramos o cenário decadente que ambienta a história. Após um longo e incurável câncer, o pai do rapaz morre, deixando ele e a irmã mais velha à própria sorte. Dividindo a casa que serviu de palco para os decrépitos e sombrios últimos momentos do pai, os dois seguem cada um seu caminho, lidando com a morte da melhor forma que encontram."
             android:textColor="@color/black"
             android:textSize="20dp"/>

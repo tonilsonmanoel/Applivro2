@@ -17,7 +17,7 @@ class SavedKisses3 : AppCompatActivity() {
 
     private fun irParaWebView(){
         val intent = Intent(this@SavedKisses3, WebView::class.java)
-        intent.putExtra("pdf","https://ablutionary-aviatio.000webhostapp.com/Kisses%203%20-%20Saved%20Kisses%20-%20Ella%20Goode.pdf")
+        intent.putExtra("pdf","https://ablutionary-aviatio.000webhostapp.com/Kisses%202%20-%20Sweet%20Kisses%20-%20Ella%20Goode.pdf")
         startActivity(intent)
     }
 }

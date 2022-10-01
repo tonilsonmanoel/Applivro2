@@ -34,8 +34,8 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/livroPrincipal1"
-            android:layout_width="200dp"
-            android:layout_height="310dp"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
             android:src="@drawable/oca_adordedemonios"/>
@@ -45,6 +45,7 @@
             android:text="O caçador de demônios"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
+            android:textStyle="bold"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:textSize="28dp" />
@@ -65,44 +66,18 @@
             android:layout_gravity="center"
             android:textSize="19dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="2dp"
-            android:gravity="center">
-            <ImageView
-                android:id="@+id/estrela1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/estrelas5"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-
+android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="125dp"
@@ -112,6 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:textAlignment="center"
             android:text="
 Na estreia literária de Wesley Snipes, um guerreiro sagrado precisa convencer um médico descrente a ajudá-lo a impedir um poderoso demônio de criar o inferno na terra.\nImagine que todos que você já conheceu ou amou fossem forçados e um estado de possessão demoníaca e escravidão espiritual. Imagine que um grupo dos homens mais ricos e poderosos traçaram esse plano sinistro para concretizar seu domínio inquestionável do planeta. Imagine dois heróis emergindo dessa escuridão para lutar contra as forças do mal.
 "

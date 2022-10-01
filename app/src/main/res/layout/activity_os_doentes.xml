@@ -33,14 +33,15 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/livroPrincipal1"
-            android:layout_width="200dp"
-            android:layout_height="310dp"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
             android:src="@drawable/os_doentes_do_doutor_garcia"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="Os Doentes do Doutor García"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
@@ -64,52 +65,27 @@
             android:layout_gravity="center"
             android:textSize="19dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="2dp"
-            android:gravity="center">
-            <ImageView
-                android:id="@+id/estrela1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/estrelas5"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-
+            android:textStyle="bold"
             android:textColor="@color/black"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="125dp"
             android:text="DESCRIÇÃO"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
+            android:textAlignment="center"
             android:layout_marginRight="10dp"
             android:text="Depois da vitória de Franco na Guerra Civil Espanhola, o Doutor Guillermo García Medina continua a viver em Madrid sob uma falsa identidade, a mesma que o salvou de ser fuzilado e que foi um presente de Manuel Arroyo Benítez, um diplomata republicano a quem salvara a vida uns anos antes. Julgando que nunca mais o veria, acaba por encontrar-se com Manuel em 1946, deixando-se recrutar para uma missão secreta e muito perigosa: a de se infiltrar na rede clandestina de evasão de criminosos de guerra fugidos do Terceiro Reich para a Argentina, dirigida por Clara Stauffer, uma poderosa mulher de nacionalidade alemã e espanhola, a partir do pacato bairro de Argüelles.
 "

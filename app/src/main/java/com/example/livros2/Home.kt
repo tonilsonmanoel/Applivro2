@@ -113,11 +113,11 @@ class Home : AppCompatActivity() {
         startActivity(intent)
     }
     private fun irParaSaved(){
-        val intent = Intent(this@Home,SavedKisses3::class.java)
+        val intent = Intent(this@Home,SweetKisses2::class.java)
         startActivity(intent)
     }
     private fun irParaSweet(){
-        val intent = Intent(this@Home,SweetKisses2::class.java)
+        val intent = Intent(this@Home,SavedKisses3::class.java)
         startActivity(intent)
     }
     private fun irParaTudoJunto(){

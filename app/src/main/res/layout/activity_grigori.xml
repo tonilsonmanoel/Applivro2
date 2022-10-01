@@ -33,15 +33,16 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/livroPrincipal1"
-            android:layout_width="200dp"
-            android:layout_height="310dp"
-            android:layout_marginTop="12dp"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
+            android:layout_marginTop="5dp"
             android:layout_gravity="center"
             android:src="@drawable/grigori"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Grigori"
+            android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
@@ -63,44 +64,18 @@
             android:layout_gravity="center"
             android:textSize="19dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="2dp"
-            android:gravity="center">
-            <ImageView
-                android:id="@+id/estrela1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/estrelas5"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-
+            android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="125dp"
@@ -112,6 +87,7 @@
             android:layout_marginRight="10dp"
             android:text="Ele é um dos últimos de uma linhagem poderosa, mas em extinção...\nGrigori Barinov é o mais velho de uma linhagem shifter de dragões e o guardião das terras e da fortuna de sua família. Jurou proteger sua história e magia, ele não vai descansar até que neutralize qualquer ameaça à sua existência. Quando ele descobre que um manuscrito antigo que expõe sua família e sua linhagem de dragão caiu nas mãos de uma mulher mortal, ele sabe que deve obter o livro de volta por todos os meios necessários. Se isso significa seduzir uma intrometida americana com um perfume inebriante, ele está mais do que disposto a levá-la para sua casa palaciana no coração da Rússia.
 "
+            android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20dp"/>
         <Button

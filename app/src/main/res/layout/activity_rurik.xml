@@ -33,8 +33,8 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/livroPrincipal1"
-            android:layout_width="200dp"
-            android:layout_height="310dp"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
             android:src="@drawable/rurik"/>
@@ -42,6 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rurik"
+            android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
@@ -63,44 +64,18 @@
             android:layout_gravity="center"
             android:textSize="19dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="2dp"
-            android:gravity="center">
-            <ImageView
-                android:id="@+id/estrela1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/estrelas5"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-
+android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="125dp"
@@ -110,6 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:textAlignment="center"
             android:text="A prisioneira de um dragão... ou seu desejo mais profundo?\nO mais feroz de uma linhagem real de shifters dragão russos, Rurik Barinov passa a maior parte dos dias defendendo a terra natal de sua família de clãs rivais. À noite, os pecados da carne “beber, dançar e sexo” mantêm seu volátil dragão guerreiro sob controle.
 "
             android:textColor="@color/black"

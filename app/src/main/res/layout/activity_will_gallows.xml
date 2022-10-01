@@ -34,8 +34,8 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/livroPrincipal1"
-            android:layout_width="200dp"
-            android:layout_height="310dp"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
             android:src="@drawable/willgallows"/>
@@ -44,6 +44,7 @@
             android:layout_height="wrap_content"
             android:text="Will Gallows e o troll barriga de serpente"
             android:textColor="@color/black"
+            android:textStyle="bold"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:textAlignment="center"
@@ -65,38 +66,12 @@
             android:layout_gravity="center"
             android:textSize="19dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="2dp"
-            android:gravity="center">
-            <ImageView
-                android:id="@+id/estrela1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela4"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-            <ImageView
-                android:id="@+id/estrela5"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/estrelaamarela"/>
-        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:src="@drawable/estrelas5"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -111,6 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:textAlignment="center"
             android:text="A fantasia encontra o velho oeste numa aventura emocionante!
 Will Gallows é um jovem elfo, além de cowboy celeste. Ele tem uma missão: capturar um troll para fazer justiça. A criatura é procurada pelo assassinato do pai de Will, o ex-xerife suplente de Minerópolis. A jornada levará o protagonista à cidade subterrânea Fenda Mortal. Lá, pessoas o avisarão dos perigos que terá pela frente. Mas de nada adiantará: ele está determinado.
 "
