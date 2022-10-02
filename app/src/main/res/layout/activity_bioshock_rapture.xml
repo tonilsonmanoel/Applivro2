@@ -17,34 +17,24 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:background="@drawable/azulclaro"
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/logo"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="120dp"
-                android:src="@drawable/ic_launcher_background" />
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo2branco"/>
 
-            <TextView
-                android:id="@+id/logonome"
-                android:layout_width="120dp"
-                android:layout_height="50dp"
-
-                android:gravity="center"
-                android:text="LOGO"
-                android:textSize="32dp" />
-
-        </LinearLayout>
-
-        <ImageView
+            <ImageView
             android:id="@+id/livroPrincipal1"
             android:layout_width="250dp"
             android:layout_height="370dp"
             android:layout_gravity="center"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="5dp"
             android:src="@drawable/bioshock" />
-
+        </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
