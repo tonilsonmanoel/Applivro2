@@ -12,9 +12,7 @@ class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-        val logoImg= findViewById<ImageView>(R.id.logo)
 
-        Glide.with(this).load("https://copias.supermidiapf.com.br/wp-content/uploads/sites/4/manuais-e-livros-passo-fundo-impressao-super-copias-grafica-digital/Livros-e-Manuais-Passo-Fundo-Super-C%C3%B3pias-Gr%C3%A1fica-Digital-2.png").into(logoImg)
         val halo = findViewById<ImageView>(R.id.halo)
         halo.setOnClickListener{ irParaHalo() }
         val bioshock = findViewById<ImageView>(R.id.bioshock)
