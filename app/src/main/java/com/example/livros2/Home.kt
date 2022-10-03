@@ -6,12 +6,30 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import com.bumptech.glide.Glide
+import com.denzcoskun.imageslider.ImageSlider
+import com.denzcoskun.imageslider.constants.ScaleTypes
+import com.denzcoskun.imageslider.models.SlideModel
 import com.example.livros2.livros.*
 
 class Home : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
+        // IMAGESLIDE
+        val imageSlider = findViewById<ImageSlider>(R.id.ImageSlide)
+        val imageList = ArrayList<SlideModel>()
+
+        imageList.add(SlideModel(R.drawable.halo))
+        imageList.add(SlideModel(R.drawable.bioshock))
+        imageList.add(SlideModel(R.drawable.savedkisses))
+        imageList.add(SlideModel(R.drawable.queen))
+        imageList.add(SlideModel(R.drawable.forestofsouls))
+
+        imageSlider.setImageList(imageList, ScaleTypes.FIT)
+
+
 
         val halo = findViewById<ImageView>(R.id.halo)
         halo.setOnClickListener{ irParaHalo() }

@@ -23,12 +23,21 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:src="@drawable/logo2branco"/>
-        <ImageView
-            android:id="@+id/livroPrincipal1"
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/ImageSlide"
             android:layout_width="200dp"
-            android:layout_height="310dp"
+            android:layout_height="305dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_placeholder="@drawable/placeholder"
+            app:iss_error_image="@drawable/error"
+            app:iss_corner_radius="5"
             android:layout_gravity="center"
-            android:src="@drawable/halo"/>
+            app:iss_selected_dot="@drawable/default_selected_dot"
+            app:iss_unselected_dot="@drawable/default_unselected_dot"
+            app:iss_period="1000"
+            />
     </LinearLayout>
         // TEXTO GENERO 1
         <TextView
