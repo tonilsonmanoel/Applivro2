@@ -64,7 +64,7 @@
             android:layout_gravity="center"
             android:layout_width="150dp"
             android:layout_height="30dp"
-            android:src="@drawable/estrelas5"
+            android:src="@drawable/estrelas4"
             />
 
         <TextView

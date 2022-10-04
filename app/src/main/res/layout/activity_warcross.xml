@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".livros.Grigori">
+    tools:context=".livros.Warcross">
+
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -23,28 +25,30 @@
                 android:layout_gravity="center"
                 android:src="@drawable/logo2branco"/>
 
-
             <ImageView
-            android:id="@+id/livroPrincipal1"
-            android:layout_width="250dp"
-            android:layout_height="370dp"
-            android:layout_marginTop="5dp"
-            android:layout_gravity="center"
-            android:src="@drawable/grigori"/>
+                android:id="@+id/livroPrincipal1"
+                android:layout_width="250dp"
+                android:layout_height="370dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/_1bfds3t8kl" />
+
         </LinearLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Grigori"
-            android:textStyle="bold"
+            android:text="Warcross: 1"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textStyle="bold"
             android:textSize="28dp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Autor: Lauren Smith"
+            android:text="Autor: Marie Lu"
             android:textColor="@color/black"
             android:layout_marginTop="2dp"
             android:layout_gravity="center"
@@ -52,7 +56,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Genero: Romance"
+            android:text="Genero: Ficção"
             android:textColor="@color/black"
             android:layout_marginTop="2dp"
             android:layout_gravity="center"
@@ -62,7 +66,7 @@
             android:layout_gravity="center"
             android:layout_width="150dp"
             android:layout_height="30dp"
-            android:src="@drawable/estrelas3"
+            android:src="@drawable/estrelas5"
             />
 
         <TextView
@@ -71,7 +75,7 @@
             android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="125dp"
             android:text="DESCRIÇÃO"/>
         <TextView
@@ -79,9 +83,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="Ele é um dos últimos de uma linhagem poderosa, mas em extinção...\nGrigori Barinov é o mais velho de uma linhagem shifter de dragões e o guardião das terras e da fortuna de sua família. Jurou proteger sua história e magia, ele não vai descansar até que neutralize qualquer ameaça à sua existência. Quando ele descobre que um manuscrito antigo que expõe sua família e sua linhagem de dragão caiu nas mãos de uma mulher mortal, ele sabe que deve obter o livro de volta por todos os meios necessários. Se isso significa seduzir uma intrometida americana com um perfume inebriante, ele está mais do que disposto a levá-la para sua casa palaciana no coração da Rússia.
-"
             android:textAlignment="center"
+            android:text="Autora das bem-sucedidas trilogias Legend e Jovens de Elite e nome forte da literatura jovem internacional, Marie Lu mergulha no mundo da tecnologia em Warcross. Neste eletrizante thriller de ficção científica, Emika Chen é uma hacker de 18 anos com uma vida financeira difícil. Num golpe de sorte do destino, ela se torna milionária ao ser contratada pelo criador do Warcross, um jogo de realidade virtual que virou febre em todo o mundo, para evitar um ataque em massa que estaria sendo planejado contra a plataforma – e seus milhões de usuários – durante a cerimônia de encerramento de um grande campeonato."
             android:textColor="@color/black"
             android:textSize="20dp"/>
         <Button
@@ -97,6 +100,5 @@
             android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
-
 
 </ScrollView>

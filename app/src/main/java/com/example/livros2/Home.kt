@@ -21,6 +21,7 @@ class Home : AppCompatActivity() {
         val imageSlider = findViewById<ImageSlider>(R.id.ImageSlide)
         val imageList = ArrayList<SlideModel>()
 
+        imageList.add(SlideModel(R.drawable._1bfds3t8kl))
         imageList.add(SlideModel(R.drawable.halo))
         imageList.add(SlideModel(R.drawable.bioshock))
         imageList.add(SlideModel(R.drawable.savedkisses))
@@ -30,7 +31,8 @@ class Home : AppCompatActivity() {
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
 
 
-
+        val warcross = findViewById<ImageView>(R.id.warcross)
+        warcross.setOnClickListener{ irParaWarcross() }
         val halo = findViewById<ImageView>(R.id.halo)
         halo.setOnClickListener{ irParaHalo() }
         val bioshock = findViewById<ImageView>(R.id.bioshock)
@@ -72,6 +74,12 @@ class Home : AppCompatActivity() {
         val thoseWhoPrey = findViewById<ImageView>(R.id.thosewhoprey)
         thoseWhoPrey.setOnClickListener { irParaThoseWho() }
     }
+    private fun irParaWarcross(){
+        val intent = Intent(this@Home,Warcross::class.java)
+        startActivity(intent)
+    }
+
+
     private fun irParaHalo(){
         val intent = Intent(this@Home,HaloBrokenCircle::class.java)
         startActivity(intent)
